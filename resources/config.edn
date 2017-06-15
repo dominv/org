@@ -1,5 +1,5 @@
-{:organization "47deg"
- :organization-name "47 Degrees"
+{:organization "dominv"
+ :organization-name "Dominv"
  :logo {:href "http://47deg.com"
         :src "img/nav-brand.png"}
  :links [{:text "Blog" :href "http://47deg.com/blog"}
@@ -14,7 +14,7 @@
                       "scala-exercises"}
  :project-logos {"scastie" "//dominv.github.io/scastie/img/navbar_brand.png"
                  "scala.epfl.ch" "//dominv.github.io/scala.epfl.ch/img/navbar_brand.png"}
- :token "9b005a782e8223efb12cf2429a55c7aae715eb9d"
+ :token "811006e88cd581bd0e115f2c7f7466430cd9e8fc"
  :analytics "UA-18433785-13"
  :style {:primary-color "#F44336"
          :header {:background "linear-gradient(0deg, rgba(30, 39, 53, 0.88), rgba(30, 39, 53, 0.88)), url(\"img/header-background.jpg\") no-repeat center center"

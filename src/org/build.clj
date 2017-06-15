@@ -109,7 +109,7 @@
   (clojure.edn/read-string (slurp (clojure.java.io/resource path))))
 
 (defn fetch-data!
-  [{:keys [organization token extra-repos]}])
+  [{:keys [organization token]}])
 
 (defn make-dirs!
   [js css]
