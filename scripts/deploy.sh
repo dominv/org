@@ -6,7 +6,7 @@ git config --global user.name "Travis CI"
 git config --global user.email "domingo.v@47deg.com"
 
 # Pull latest version of published subtree
-git checkout master
+git checkout https://dominv:$GITHUB_API_KEY@github.com/dominv/org master
 git subtree pull --prefix=docs --message="[skip ci] Update subtree" https://dominv:$GITHUB_API_KEY@github.com/dominv/dominv.github.io.git master
 
 # Build & Commit built site

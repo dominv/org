@@ -296,7 +296,7 @@
            org (or organization-name organization)]
        [:p
         (str "Copyright " year " " org " - Built with ")
-        [:a {:href "http://github.com/47deg/org"} "org"]
+        [:a {:href "http://github.com/dominv/org"} "org"]
         (when (get footer :acknowledgment true)
           [:span
            " by "
